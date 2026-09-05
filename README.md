@@ -1,5 +1,10 @@
 # stalemod
 
+[![npm version](https://img.shields.io/npm/v/stalemod.svg)](https://www.npmjs.com/package/stalemod)
+[![npm downloads](https://img.shields.io/npm/dm/stalemod.svg)](https://www.npmjs.com/package/stalemod)
+[![CI](https://github.com/promethee/stalemod/actions/workflows/ci.yml/badge.svg)](https://github.com/promethee/stalemod/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/stalemod.svg)](./LICENSE)
+
 Scan your local dev folders for stale, opted-in `node_modules` directories and report their size and location — so you can decide for yourself what's worth cleaning up.
 
 `stalemod` is a **reporting tool only**. It never deletes anything. It can be used two ways:
